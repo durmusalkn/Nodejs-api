@@ -36,7 +36,7 @@ buraya veri tabani tesmi eklenecek
 
 After the database is created, we can see the empty version of the project by typing *node app.js* in the terminal. This project is running on port 5000
 
-This project is about movies. We can add, delete, get or post a movie. Let
+This project is about movies. We can add, delete, get or post a movie.
 
 ### Get
 To fetch all the movies, it is necessary to go to the "/movies" link. Thanks to the code below, all movies are pulled from the database and listed in json format. Comment lines explain which code does which operation.
