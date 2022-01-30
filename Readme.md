@@ -32,7 +32,7 @@ CREATE TABLE Movies(
     rating int NOT NULL
 );
 ```
-buraya veri tabani tesmi eklenecek
+
 
 After the database is created, we can see the empty version of the project by typing *node app.js* in the terminal. This project is running on port 5000
 
@@ -59,7 +59,6 @@ app.get( "/movies", (req, res)=>{
 });
 ```
 
-Buraya da resim eklenecek
 
 ##### List Movie by ID
 ```javascript
@@ -77,8 +76,6 @@ app.get( "/movies/:id", (req, res)=>{
     });
 });
 ```
-
-Buraya da resim konulacak]
 
 ### Post
 ```javascript
@@ -101,8 +98,6 @@ app.post( "/add_movie", (req, res)=>{
     });
 });
 ```
-
-buraya da resim konulacak
 
 
 ### Put
@@ -127,8 +122,6 @@ const db = new sqlite3.Database( DB_PATH, (err)=>{
 
 ```
 
-reis son olayiu bilitin
-
 
 ```javascript
 //delete movie by id
@@ -149,4 +142,3 @@ app.delete("/movies/delete/:id", (req, res)=>{
 });
 
 ```
-resim ekle
