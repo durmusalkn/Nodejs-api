@@ -123,6 +123,7 @@ const db = new sqlite3.Database( DB_PATH, (err)=>{
 ```
 
 
+### Delete
 ```javascript
 //delete movie by id
 app.delete("/movies/delete/:id", (req, res)=>{
